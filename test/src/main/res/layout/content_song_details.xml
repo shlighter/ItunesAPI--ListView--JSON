@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_song_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shai.sadna.SongDetails"
+    tools:showIn="@layout/activity_song_details">
+
+
+
+
+    <TextView
+
+        android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Song:" />
+
+    <TextView
+        android:id="@+id/songJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/song" />
+
+    <TextView
+        android:id="@+id/collection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/song"
+        android:text="Collection:" />
+
+    <TextView
+        android:id="@+id/collectionJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songJsn"
+        android:layout_toRightOf="@+id/collection" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collection"
+        android:text="Price:" />
+
+    <TextView
+        android:id="@+id/priceJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectionJsn"
+        android:layout_toRightOf="@+id/price" />
+
+    <TextView
+        android:id="@+id/trackId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/price"
+        android:text="Track ID:" />
+
+    <TextView
+        android:id="@+id/trackIdJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceJsn"
+        android:layout_toRightOf="@+id/trackId" />
+
+    <TextView
+        android:id="@+id/collectionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trackId"
+        android:text="Collection ID:" />
+
+    <TextView
+        android:id="@+id/collectionIdJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trackIdJsn"
+        android:layout_toRightOf="@+id/collectionId" />
+
+    <TextView
+        android:id="@+id/collectionPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectionId"
+        android:text="Collection Price:" />
+
+    <TextView
+        android:id="@+id/collectionPriceJsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectionIdJsn"
+        android:layout_toRightOf="@+id/collectionPrice" />
+
+
+
+
+
+
+</RelativeLayout>

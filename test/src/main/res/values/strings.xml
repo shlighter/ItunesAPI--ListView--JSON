@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sadna</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="title_activity_song_details">SongDetails</string>
+</resources>
